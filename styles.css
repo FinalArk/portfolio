@@ -1,0 +1,78 @@
+
+
+
+/* Color Palette 
+
+--black: #000000ff;
+--cool-grey: #848fa5ff;
+--fiery-rose: #ff5d73ff;
+--cosmic-cobalt: #3d348bff;
+--celeste: #a7fff6ff;
+
+*/
+
+/* Global styles 
+------------------- */
+body { 
+    color: #3d348bff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1em;
+}
+
+img { 
+    width: 300px;
+}
+
+a { 
+    color: #ff5d73ff;
+}
+
+a:hover { 
+    text-decoration: none;
+}
+
+
+
+/* Profile
+------------------- */
+
+header { 
+    background-color: #848fa5ff;
+}
+
+/* Projects 
+------------------- */
+.projects { 
+    background-color: #a7fff6ff;
+
+}
+
+.projects a { 
+    background-color: #3d348bff;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.projects a:hover { 
+    background: rgba(61, 52, 139, 80%);
+}
+
+/* Work Experience 
+------------------- */
+.work-experience { 
+    background-color: #ff5d73ff;
+}
+
+/* Education
+------------------- */
+
+/* Contact Info
+------------------- */
+footer { 
+    background-color: #000000ff;
+}
+
+footer a { 
+    color: #3d348bff;
+}
