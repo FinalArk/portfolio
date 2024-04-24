@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html class="roboto-light">
+    <head>
+        <title>Landon Ellis</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="functions.js" type="text/javascript"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/1e59005921.js" crossorigin="anonymous"></script>
+    </head>
+    <body onload="myFunction()">
+
+        <script>
+            var myVar;
+            
+            function myFunction() {
+              myVar = setTimeout(showPage, 2000);
+            }
+            
+            function showPage() {
+              document.getElementById("loader").style.display = "none";
+              document.getElementById("myDiv").style.display = "block";
+            }
+        </script>
+
+        <div id="loader"></div>
+
+        <div style="display: none;" class="animate-bottom" id="myDiv">
+            <section id="intro">
+                <input id="checkbox" type="checkbox">
+                <label class="menu-icon" for="checkbox">
+                    <i class="fa fa-bars"></i>
+                </label>
+    
+    
+    
+                <nav>
+                    <img src="images/logo-version2-min.png" alt="personally made logo with my initals with a backdrop of a rounded triangle.">
+                    <ul id="myLinks">
+                        <li><a href= "#about">About</a></li>
+                        <li><a href= "#skills">Skills</a></li>
+                        <li><a href= "#projects">Projects</a></li>
+                        <li><a href= "#contact">Contact</a></li>
+                    </ul>
+                </nav>
+    
+    
+                <div class="intro-text">
+                    <h1 class="righteous-regular">Hiya, I'm Landon Ellis</h1>
+                    <h3 class="righteous-regular">Front End Developer</h3>
+                    <a href="#about"><i class="fa-solid fa-angles-down center"></i></a>
+                </div>
+    
+            </section>
+    
+            <section id="about">
+    
+                <p>Get to Know Me</p>
+                <div class="image-holder">
+                    <img src="images/it-me-3-min.jpg" alt="Self portrait of me">
+                </div>
+                <span>
+                    <div>
+                        I study web development at Wake Tech Community College and am set to graduate with an associate degree on <b>May 4, 2024.</b> I have a passion to learn everything about HTML/CSS, Javascript, and other front-end technologies while loving every step of the way.<br><br>
+                        With a drive for creativity, I create and design eye-catching websites while still putting <b>functionality</b> above all else. I hope to bring this creativity with me into the workforce and <b>expand my experience and knowledge of web development.</b> <br><br>
+                        When I'm not behind a computer screen, I'm enjoying my favorite show, starting my next JRPG adventure, or finding time to write short stories.
+                    </div>
+                    <div class="button-mover">
+                        <a></a><button class="righteous-regular"><a href="https://landonblog0.wordpress.com/" target="_blank">My Blog!</a></button>
+                    </div>
+                </span>
+    
+            </section>
+    
+            <section id="skills">
+                
+                <p class="skill-heading">What I Do</p>
+    
+                <div class="skill-1">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                    <h2>Motivated Mindset</h2>
+                    <p class="skill-descriptions">I love to challenge myself and try new things. I have great skills in troubleshooting and problem-solving. I never fear taking a situation head-on and getting to the root of the issue. Often times, troubleshooting allows me to further extend my skillset and knowledge.</p>
+                </div>
+    
+                <div class="skill-2">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Diverse Toolkit</h2>
+                    <p class="skill-descriptions">Along my journey as a web developer, I have become a jack of all trades. I have extensive knowledge of front-end languages and technologies like HTML/CSS, JS, React, PHP, and WordPress. Though I also have less experience in back-end languages such as Python, C++, and Java.</p>
+                </div>
+    
+                <div class="skill-3">
+                    <i class="fa-solid fa-brush"></i>
+                    <h2>Creative Thinker</h2>
+                    <p class="skill-descriptions">I love the creative process and have an eye for design. Dabbling in web design technologies like Figma has elevated my websites and helped me understand the importance of layout and the design process.</p>
+                </div>
+    
+    
+            </section>
+    
+            <section id=resume>
+                <p>Check Out My Resume!</p>
+                <a></a><button class="righteous-regular"><a href="https://wcet.waketech.edu/leellis/WEB287/Landon_Resume_Two.pdf" target="_blank">Click Here</a></button>
+            </section>
+    
+            <section id="projects">
+                <p class="project-heading">Projects</p>
+    
+                <div class="project-1">
+                    <img src="images/topsail-project-ss-min.png" alt="redesign of topsail beach">
+                    <p class="project-title righteous-regular"><a href="https://wcet.waketech.edu/leellis/WEB125/Topsail-Ellis/" target="_blank">Beach Website Redesign</a></p>
+                </div>
+    
+                <p class="project-description">In this project, I used a combination of HTML, CSS, and CSS Grid to make a redesign of the beloved Topsail Beach located in North Carolina. I aimed to make a simple but effective multi-page design as well as create a custom logo using VistaPrint.com. This project challenged me to think about and rework an existing design while still trying to remain faithful to the original. If I were to approach this project again, I think I'd play around with a different color palette. I tried using the original to stay consistent, but the colors don't always work well together and can cause some accessibility issues.</p>
+    
+            
+    
+    
+                <div class="project-2">
+                    <img src="images/tyrell-county-ss-min.png" alt="redesign of the tyrell county website I did for a assignment.">
+                    <p class="project-title righteous-regular"><a href="https://wcet.waketech.edu/leellis/WEB125/tyrell-county-ellis/" target="_blank">NC County Redesign</a></p>
+                </div>
+    
+                <p class="project-description-2">The Tyrell County Redesign Project was very similar to the Topsail Beach Project. I was tasked with redesigning another website, this time a county's very old website. For this project, I took a similar approach to HTML, CSS, and CSS Grid to do most of the work. I went bigger on the redesign though and cut the navigational window nearly to 3/4 of what it originally was. This project challenged me with redesigning the navigation into something different. I had to decide what was important and what the site could do without. If I visited this site again, I'd go back and change the navigation yet again. I wasn't happy with the final product and knew I could do better.</p>
+    
+                
+    
+                <div class="project-3">
+                    <img src="images/resume-builder-ss-min.png" alt="A Javascript based project where HTML parsing is used to make a resume on click.">
+                    <p class="project-title righteous-regular"><a href="https://wcet.waketech.edu/leellis/WEB115/FinalProject/finalProject.html" target="_blank">Javascript Resume Builder</a></p>
+                </div>
+    
+                <p class="project-description-3">The Resume Builder was the first big project I tackled that primarily used Javascript. Using the HTML parse feature and clicking a button to activate the feature on click. The builder would create a complete resume based on the information that the user put into each of the fields. This was a challenging project, as the parsing feature wasn't the easiest to work with. I would like to revisit this project in the future, as I feel like the design is very bland and not appealing at all. I know I could do much more with the knowledge I have now about both design and HTML/CSS.</p>
+    
+    
+            </section>
+    
+            <section id="contact">
+                <p>Let's Keep in Touch!</p>
+                <script src="https://www.emailmeform.com/builder/forms/jsform/faOws061D9r6yjb5" type="text/javascript"></script>
+                <div class="social-and-email-icons">
+                    <a href="https://github.com/FinalArk" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/landon-ellis-150654302/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="#" class="back-arrow"><i class="fa-solid fa-angles-up"></i></a>
+            </section>
+        </div>
+
+
+
+    </body>
+</html>
